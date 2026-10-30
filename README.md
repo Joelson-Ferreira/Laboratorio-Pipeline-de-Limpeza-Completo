@@ -40,7 +40,7 @@ Este exercício usou o arquivo exames_laboratoriais.csv, um conjunto de dados si
   
 **Professor**<br>
 
-- Placido Antonio de Souza Neto - [LinkedIn](https://www.linkedin.com/in/placidoneto/)
+- Placido Antonio de Souza Neto - <a href="https://www.linkedin.com/in/placidoneto/" target="_blank">LinkedIn</a>
 
 **Links úteis**<br>
 
