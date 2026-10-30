@@ -1,0 +1,21 @@
+# Arquivos de log
+*.log
+
+# Jupyter Notebook - checkpoints
+.ipynb_checkpoints/
+
+# Python - arquivos temporários
+__pycache__/
+*.py[cod]
+
+# Ambiente virtual
+.venv/
+venv/
+
+# Arquivos com variáveis e credenciais
+.env
+.env.*
+
+# Arquivos temporários do sistema Windows
+Thumbs.db
+desktop.ini
