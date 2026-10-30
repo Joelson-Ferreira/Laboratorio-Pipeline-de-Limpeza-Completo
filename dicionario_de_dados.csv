@@ -1,0 +1,19 @@
+coluna,tipo,descricao
+id_exame,object,identificador único do exame
+id_paciente,object,identificador do paciente
+data_coleta,datetime64[ns],data da coleta (dois formatos de origem convertidos para datetime)
+sexo,object,"F / M (padronizado a partir de F, M, Feminino, masculino)"
+idade,float64,idade em anos (6 ausentes imputados pela mediana geral)
+tipo_exame,object,"Glicemia, Colesterol total, Creatinina ou Hemoglobina"
+resultado,float64,resultado numérico do exame (texto com vírgula convertido para float; código 999 tratado como ausente e imputado pela mediana do tipo de exame)
+unidade,object,unidade de medida do resultado (mg/dL ou g/dL)
+laboratorio,object,"LabNatal, LabSaúde RN ou Laboratório Central (espaços e maiúsculas padronizados)"
+prioridade,object,"Rotina, Urgente ou Emergência (padronizado)"
+faixa_etaria,category,"faixa de idade: 18-39, 40-59, 60-79, 80+ (pd.cut) - derivado"
+mes_coleta,int32,mês da coleta (1-12) - derivado
+alterado,bool,True se o resultado está fora da faixa de referência do tipo de exame - derivado
+prioridade_cod,int64,"prioridade ordinal: 0=Rotina, 1=Urgente, 2=Emergência"
+tipo_Colesterol total,int64,one-hot do tipo de exame (0/1)
+tipo_Creatinina,int64,one-hot do tipo de exame (0/1)
+tipo_Glicemia,int64,one-hot do tipo de exame (0/1)
+tipo_Hemoglobina,int64,one-hot do tipo de exame (0/1)
