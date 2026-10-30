@@ -36,7 +36,7 @@ Este exercício usou o arquivo exames_laboratoriais.csv, um conjunto de dados si
   
 **Componente**<br>
 
-- Joelson Ferreira - <a href="https://www.linkedin.com/in/joelsons/" target="_blank">LinkedIn</a>
+- Joelson Ferreira - <a href="https://www.linkedin.com/in/joelsonferreira/" target="_blank">LinkedIn</a>
   
 **Professor**<br>
 
